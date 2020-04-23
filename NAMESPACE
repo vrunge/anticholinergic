@@ -1,0 +1,4 @@
+useDynLib(anticholinergic, .registration = TRUE)
+
+importFrom(Rcpp, evalCpp)
+export(anticholinergic)
